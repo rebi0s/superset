@@ -629,7 +629,42 @@ COMMON_BOOTSTRAP_OVERRIDES_FUNC: Callable[  # noqa: E731
 #     }]
 
 # This is merely a default
-EXTRA_CATEGORICAL_COLOR_SCHEMES: list[dict[str, Any]] = []
+# EXTRA_CATEGORICAL_COLOR_SCHEMES: list[dict[str, Any]] = []
+#EXTRA_CATEGORICAL_COLOR_SCHEMES: [
+#    {
+#        "id": "lacuna",
+#        "description": "Lacuna Color Scheme",
+#        "label": "Lacuna Color Scheme",i
+#        "isDefault": True,
+#        "colors": ['#FF0000', '#00FF00', '#0000FF', '#FFFF00', '#FFA500', '#800080', '#FFC0CB', '#8B4513', '#808080', '#000000', '#FFFFFF', '#40E0D0', '#FFD700', '#C0C0C0', '#800000', '#32CD32', '#000080', '#FF7F50', '#FA8072', '#E6E6FA']
+#    }
+#]
+
+EXTRA_CATEGORICAL_COLOR_SCHEMES = [
+    {
+        "id": "lacuna",
+        "description": "Lacuna Color Scheme",
+        "label": "Lacuna Color Scheme",
+        "isDefault": True,
+        "colors": ['#FF0000', '#00FF00', '#0000FF', '#FFFF00', '#FFA500', '#800080', '#FFC0CB', '#8B4513', '#808080', '#000000', '#FFFFFF', '#40E0D0', '#FFD700', '#C0C0C0', '#800000', '#32CD32', '#000080', '#FF7F50', '#FA8072', '#E6E6FA']
+    },
+    {
+        "id": 'olympicColors',
+        "description": '',
+        "label": 'Colors of the Olympic Rings',
+        "isDefault": False,
+        "colors":
+         ['#4594CC', '#FAD749', '#353535', '#43964A', '#BB3D37']
+    },
+    {
+        "id": 'xylophoneColors',
+        "description": '',
+        "label": 'Colors of a typical toy Xylophone',
+	"isDefault": True,
+        "colors":
+         ['#FF0000', '#FFA500', '#FFFF00', '#008000', '#0000FF', '#000080', '#663399', '#FFC0CB']
+    }
+]
 
 # THEME_OVERRIDES is used for adding custom theme to superset
 # example code for "My theme" custom scheme
@@ -664,7 +699,36 @@ THEME_OVERRIDES: dict[str, Any] = {}
 #     }]
 
 # This is merely a default
-EXTRA_SEQUENTIAL_COLOR_SCHEMES: list[dict[str, Any]] = []
+# EXTRA_SEQUENTIAL_COLOR_SCHEMES: list[dict[str, Any]] = []
+EXTRA_SEQUENTIAL_COLOR_SCHEMES: [
+    {
+        "id": 'lacuna',
+        "description": '',
+        "isDiverging": True,
+        "label": 'Lacuna Color Scheme',
+        "isDefault": True,
+        "colors": ['#FF0000', '#00FF00', '#0000FF', '#FFFF00', '#FFA500', '#800080', '#FFC0CB', '#8B4513', '#808080', '#000000', '#FFFFFF', '#40E0D0', '#FFD700', '#C0C0C0', '#800000', '#32CD32', '#000080', '#FF7F50', '#FA8072', '#E6E6FA']
+    },
+    {
+        "id": 'olympicColors',
+        "description": '',
+        "isDiverging": True,
+        "label": 'Colors of the Olympic Rings',
+        "isDefault": False,
+        "colors":
+         ['#4594CC', '#FAD749', '#353535', '#43964A', '#BB3D37']
+    },
+    {
+        "id": 'xylophoneColors',
+        "description": '',
+        "isDiverging": True,
+        "label": 'Colors of a typical toy Xylophone',
+        "isDefault": False,
+        "colors":
+         ['#FF0000', '#FFA500', '#FFFF00', '#008000', '#0000FF', '#000080', '#663399', '#FFC0CB']
+    }
+]
+
 
 # ---------------------------------------------------
 # Thumbnail config (behind feature flag)
