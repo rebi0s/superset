@@ -647,7 +647,10 @@ EXTRA_CATEGORICAL_COLOR_SCHEMES = [
         "description": "Lacuna Color Scheme",
         "label": "Lacuna Color Scheme",
         "isDefault": True,
-        "colors": ['#FF0000', '#00FF00', '#0000FF', '#FFFF00', '#FFA500', '#800080', '#FFC0CB', '#8B4513', '#808080', '#000000', '#FFFFFF', '#40E0D0', '#FFD700', '#C0C0C0', '#800000', '#32CD32', '#000080', '#FF7F50', '#FA8072', '#E6E6FA']
+        "colors":
+         ['#FF0000', '#00FF00', '#0000FF', '#FFFF00', '#FFA500', '#800080', '#FFC0CB',
+          '#8B4513', '#808080', '#000000', '#FFFFFF', '#40E0D0', '#FFD700', '#C0C0C0',
+          '#800000', '#32CD32', '#000080', '#FF7F50', '#FA8072', '#E6E6FA']
     },
     {
         "id": 'olympicColors',
@@ -661,7 +664,7 @@ EXTRA_CATEGORICAL_COLOR_SCHEMES = [
         "id": 'xylophoneColors',
         "description": '',
         "label": 'Colors of a typical toy Xylophone',
-	"isDefault": True,
+	    "isDefault": False,
         "colors":
          ['#FF0000', '#FFA500', '#FFFF00', '#008000', '#0000FF', '#000080', '#663399', '#FFC0CB']
     }
@@ -708,7 +711,10 @@ EXTRA_SEQUENTIAL_COLOR_SCHEMES: [
         "isDiverging": True,
         "label": 'Lacuna Color Scheme',
         "isDefault": True,
-        "colors": ['#FF0000', '#00FF00', '#0000FF', '#FFFF00', '#FFA500', '#800080', '#FFC0CB', '#8B4513', '#808080', '#000000', '#FFFFFF', '#40E0D0', '#FFD700', '#C0C0C0', '#800000', '#32CD32', '#000080', '#FF7F50', '#FA8072', '#E6E6FA']
+        "colors":
+         ['#FF0000', '#00FF00', '#0000FF', '#FFFF00', '#FFA500', '#800080', '#FFC0CB',
+          '#8B4513', '#808080', '#000000', '#FFFFFF', '#40E0D0', '#FFD700', '#C0C0C0',
+          '#800000', '#32CD32', '#000080', '#FF7F50', '#FA8072', '#E6E6FA']
     },
     {
         "id": 'olympicColors',
