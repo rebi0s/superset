@@ -676,7 +676,19 @@ THEME_OVERRIDES: dict[str, Any] = {}
 #     }]
 
 # This is merely a default
-EXTRA_SEQUENTIAL_COLOR_SCHEMES: list[dict[str, Any]] = []
+# EXTRA_SEQUENTIAL_COLOR_SCHEMES: list[dict[str, Any]] = []
+EXTRA_SEQUENTIAL_COLOR_SCHEMES =  [
+    {
+        "id": 'lacunaColors',
+        "description": '',
+        "isDiverging": True,
+        "label": 'Lacuna Color Scheme',
+        "isDefault": True,
+        "colors":
+        ['#FF0000', '#00FF00', '#0000FF', '#FFFF00', '#FFA500', '#800080', '#FFC0CB',
+         '#8B4513', '#808080', '#000000', '#FFFFFF', '#40E0D0', '#FFD700', '#C0C0C0',
+         '#800000', '#32CD32', '#000080', '#FF7F50', '#FA8072', '#E6E6FA']
+    }]
 
 # ---------------------------------------------------
 # Thumbnail config (behind feature flag)
