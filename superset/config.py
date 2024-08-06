@@ -633,7 +633,7 @@ COMMON_BOOTSTRAP_OVERRIDES_FUNC: Callable[  # noqa: E731
 # EXTRA_CATEGORICAL_COLOR_SCHEMES: list[dict[str, Any]] = []
 EXTRA_CATEGORICAL_COLOR_SCHEMES = [
     {
-        "id": 'myVisualizationColors',
+        "id": 'lacunaColors',
         "description": '',
         "label": 'Lacuna Color Scheme',
         "isDefault": True,
