@@ -635,7 +635,7 @@ COMMON_BOOTSTRAP_OVERRIDES_FUNC: Callable[  # noqa: E731
 #    {
 #        "id": "lacuna",
 #        "description": "Lacuna Color Scheme",
-#        "label": "Lacuna Color Scheme",i
+#        "label": "Lacuna Color Scheme",
 #        "isDefault": True,
 #        "colors": ['#FF0000', '#00FF00', '#0000FF', '#FFFF00', '#FFA500', '#800080', '#FFC0CB', '#8B4513', '#808080', '#000000', '#FFFFFF', '#40E0D0', '#FFD700', '#C0C0C0', '#800000', '#32CD32', '#000080', '#FF7F50', '#FA8072', '#E6E6FA']
 #    }
@@ -643,20 +643,18 @@ COMMON_BOOTSTRAP_OVERRIDES_FUNC: Callable[  # noqa: E731
 
 EXTRA_CATEGORICAL_COLOR_SCHEMES = [
     {
-        "id": "lacuna",
-        "description": "Lacuna Color Scheme",
-        "label": "Lacuna Color Scheme",
-        "isDefault": True,
+        "id": 'lacuna',
+        "description": '',
+        "label": 'Lacuna Color Scheme',
+        "isDefault": False,
         "colors":
-         ['#FF0000', '#00FF00', '#0000FF', '#FFFF00', '#FFA500', '#800080', '#FFC0CB',
-          '#8B4513', '#808080', '#000000', '#FFFFFF', '#40E0D0', '#FFD700', '#C0C0C0',
-          '#800000', '#32CD32', '#000080', '#FF7F50', '#FA8072', '#E6E6FA']
+         ['#FF0000', '#00FF00', '#0000FF', '#FFFF00', '#FFA500', '#800080', '#FFC0CB', '#8B4513', '#808080', '#000000', '#FFFFFF', '#40E0D0', '#FFD700', '#C0C0C0', '#800000', '#32CD32', '#000080', '#FF7F50', '#FA8072', '#E6E6FA']
     },
     {
         "id": 'olympicColors',
         "description": '',
         "label": 'Colors of the Olympic Rings',
-        "isDefault": False,
+        "isDefault": True,
         "colors":
          ['#4594CC', '#FAD749', '#353535', '#43964A', '#BB3D37']
     },
@@ -710,18 +708,16 @@ EXTRA_SEQUENTIAL_COLOR_SCHEMES: [
         "description": '',
         "isDiverging": True,
         "label": 'Lacuna Color Scheme',
-        "isDefault": True,
+        "isDefault": False,
         "colors":
-         ['#FF0000', '#00FF00', '#0000FF', '#FFFF00', '#FFA500', '#800080', '#FFC0CB',
-          '#8B4513', '#808080', '#000000', '#FFFFFF', '#40E0D0', '#FFD700', '#C0C0C0',
-          '#800000', '#32CD32', '#000080', '#FF7F50', '#FA8072', '#E6E6FA']
+         ['#FF0000', '#00FF00', '#0000FF', '#FFFF00', '#FFA500', '#800080', '#FFC0CB', '#8B4513', '#808080', '#000000', '#FFFFFF', '#40E0D0', '#FFD700', '#C0C0C0', '#800000', '#32CD32', '#000080', '#FF7F50', '#FA8072', '#E6E6FA']
     },
     {
         "id": 'olympicColors',
         "description": '',
         "isDiverging": True,
         "label": 'Colors of the Olympic Rings',
-        "isDefault": False,
+        "isDefault": True,
         "colors":
          ['#4594CC', '#FAD749', '#353535', '#43964A', '#BB3D37']
     },
