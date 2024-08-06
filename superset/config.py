@@ -643,14 +643,6 @@ COMMON_BOOTSTRAP_OVERRIDES_FUNC: Callable[  # noqa: E731
 
 EXTRA_CATEGORICAL_COLOR_SCHEMES = [
     {
-        "id": 'testeGustavo',
-        "description": '',
-        "label": 'Colors of the Olympic Rings 2',
-        "isDefault": True,
-        "colors":
-         ['#4594CC', '#FAD749', '#353535', '#43964A', '#BB3D37']
-    },
-    {
         "id": 'olympicColors',
         "description": '',
         "label": 'Colors of the Olympic Rings',
@@ -703,15 +695,6 @@ THEME_OVERRIDES: dict[str, Any] = {}
 # This is merely a default
 # EXTRA_SEQUENTIAL_COLOR_SCHEMES: list[dict[str, Any]] = []
 EXTRA_SEQUENTIAL_COLOR_SCHEMES: [
-    {
-        "id": 'testeGustavo',
-        "description": '',
-        "isDiverging": True,
-        "label": 'Colors of the Olympic Rings',
-        "isDefault": True,
-        "colors":
-         ['#4594CC', '#FAD749', '#353535', '#43964A', '#BB3D37']
-    },
     {
         "id": 'olympicColors',
         "description": '',
