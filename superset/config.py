@@ -643,10 +643,10 @@ COMMON_BOOTSTRAP_OVERRIDES_FUNC: Callable[  # noqa: E731
 
 EXTRA_CATEGORICAL_COLOR_SCHEMES = [
     {
-        "id": 'lacuna',
+        "id": 'testeGustavo',
         "description": '',
-        "label": 'Lacuna Color Scheme',
-        "isDefault": False,
+        "label": 'Colors of the Olympic Rings 2',
+        "isDefault": True,
         "colors":
          ['#4594CC', '#FAD749', '#353535', '#43964A', '#BB3D37']
     },
@@ -704,11 +704,11 @@ THEME_OVERRIDES: dict[str, Any] = {}
 # EXTRA_SEQUENTIAL_COLOR_SCHEMES: list[dict[str, Any]] = []
 EXTRA_SEQUENTIAL_COLOR_SCHEMES: [
     {
-        "id": 'lacuna',
+        "id": 'testeGustavo',
         "description": '',
         "isDiverging": True,
-        "label": 'Lacuna Color Scheme',
-        "isDefault": False,
+        "label": 'Colors of the Olympic Rings',
+        "isDefault": True,
         "colors":
          ['#4594CC', '#FAD749', '#353535', '#43964A', '#BB3D37']
     },
