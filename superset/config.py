@@ -635,11 +635,12 @@ EXTRA_CATEGORICAL_COLOR_SCHEMES = [
     {
         "id": 'myVisualizationColors',
         "description": '',
-        "label": 'My Visualization Colors',
+        "label": 'Lacuna Color Scheme',
         "isDefault": True,
         "colors":
-         ['#006699', '#009DD9', '#5AAA46', '#44AAAA', '#DDAA77', '#7799BB', '#88AA77',
-         '#552288', '#5AAA46', '#CC7788', '#EEDD55', '#9977BB', '#BBAA44', '#DDCCDD']
+         ['#FF0000', '#00FF00', '#0000FF', '#FFFF00', '#FFA500', '#800080', '#FFC0CB',
+          '#8B4513', '#808080', '#000000', '#FFFFFF', '#40E0D0', '#FFD700', '#C0C0C0',
+          '#800000', '#32CD32', '#000080', '#FF7F50', '#FA8072', '#E6E6FA']
     }]
 
 # THEME_OVERRIDES is used for adding custom theme to superset
