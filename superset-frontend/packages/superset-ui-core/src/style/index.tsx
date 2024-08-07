@@ -125,26 +125,86 @@ const defaultTheme = {
       light1: '#B3DEFE',
       light2: '#EFF8FE',
     },
-    lacuna1: '#FF0000',
-    lacuna2: '#00FF00',
-    lacuna3: '#0000FF',
-    lacuna4: '#FFFF00',
-    lacuna5: '#FFA500',
-    lacuna6: '#800080',
-    lacuna7: '#FFC0CB',
-    lacuna8: '#8B4513',
-    lacuna9: '#808080',
-    lacuna10: '#000000',
-    lacuna11: '#FFFFFF',
-    lacuna12: '#40E0D0',
-    lacuna13: '#FFD700',
-    lacuna14: '#C0C0C0',
-    lacuna15: '#800000',
-    lacuna16: '#32CD32',
-    lacuna17: '#000080',
-    lacuna18: '#FF7F50',
-    lacuna19: '#FA8072',
-    lacuna20: '#E6E6FA',
+    lacuna1: {
+      color: '#FF0000',
+      label: '#FF0000 Vermelho'
+    },
+    lacuna2: {
+      color: '#00FF00',
+      label: '#00FF00 Verde'
+    },
+    lacuna3: {
+      color: '#0000FF',
+      label: '#0000FF Azul'
+    },
+    lacuna4: {
+      color: '#FFFF00',
+      label: '#FFFF00 Amarelo'
+    },
+    lacuna5: {
+      color: '#FFA500',
+      label: '#FFA500 Laranja'
+    },
+    lacuna6: {
+      color: '#800080',
+      label: '#800080 Roxo'
+    },
+    lacuna7: {
+      color: '#FFC0CB',
+      label: '#FFC0CB Rosa'
+    },
+    lacuna8: {
+      color: '#8B4513',
+      label: '#8B4513 Marrom'
+    },
+    lacuna9: {
+      color: '#808080',
+      label: '#808080 Cinza'
+    },
+    lacuna10: {
+      color: '#000000',
+      label: '#000000 Preto'
+    },
+    lacuna11: {
+      color: '#FFFFFF',
+      label: '#FFFFFF Branco'
+    },
+    lacuna12: {
+      color: '#40E0D0',
+      label: '#40E0D0 Turquesa'
+    },
+    lacuna13: {
+      color: '#FFD700',
+      label: '#FFD700 Dourado'
+    },
+    lacuna14: {
+      color: '#C0C0C0',
+      label: '#C0C0C0 Cinza Claro'
+    },
+    lacuna15: {
+      color: '#800000',
+      label: '#800000 Vermelho Escuro'
+    },
+    lacuna16: {
+      color: '#32CD32',
+      label: '#32CD32 Verde Lima'
+    },
+    lacuna17: {
+      color: '#000080',
+      label: '#000080 Azul Marinho'
+    },
+    lacuna18: {
+      color: '#FF7F50',
+      label: '#FF7F50 Coral'
+    },
+    lacuna19: {
+      color: '#FA8072',
+      label: '#FA8072 Salmão'
+    },
+    lacuna20: {
+      color: '#E6E6FA',
+      label: '#E6E6FA Lavanda'
+    },
   },
   opacity: {
     light: '10%',
