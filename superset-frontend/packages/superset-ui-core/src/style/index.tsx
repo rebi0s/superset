@@ -127,27 +127,27 @@ const defaultTheme = {
     },
     lacuna1: {
       color: '#FF0000',
-      label: '#FF0000 Vermelho'
+      label: '#FF0000 Vermelho',
     },
     lacuna2: {
       color: '#00FF00',
-      label: '#00FF00 Verde'
+      label: '#00FF00 Verde',
     },
     lacuna3: {
       color: '#0000FF',
-      label: '#0000FF Azul'
+      label: '#0000FF Azul',
     },
     lacuna4: {
       color: '#FFFF00',
-      label: '#FFFF00 Amarelo'
+      label: '#FFFF00 Amarelo',
     },
     lacuna5: {
       color: '#FFA500',
-      label: '#FFA500 Laranja'
+      label: '#FFA500 Laranja',
     },
     lacuna6: {
       color: '#800080',
-      label: '#800080 Roxo'
+      label: '#800080 Roxo',
     },
     lacuna7: {
       color: '#FFC0CB',
@@ -159,43 +159,43 @@ const defaultTheme = {
     },
     lacuna9: {
       color: '#808080',
-      label: '#808080 Cinza'
+      label: '#808080 Cinza',
     },
     lacuna10: {
       color: '#000000',
-      label: '#000000 Preto'
+      label: '#000000 Preto',
     },
     lacuna11: {
       color: '#FFFFFF',
-      label: '#FFFFFF Branco'
+      label: '#FFFFFF Branco',
     },
     lacuna12: {
       color: '#40E0D0',
-      label: '#40E0D0 Turquesa'
+      label: '#40E0D0 Turquesa',
     },
     lacuna13: {
       color: '#FFD700',
-      label: '#FFD700 Dourado'
+      label: '#FFD700 Dourado',
     },
     lacuna14: {
       color: '#C0C0C0',
-      label: '#C0C0C0 Cinza Claro'
+      label: '#C0C0C0 Cinza Claro',
     },
     lacuna15: {
       color: '#800000',
-      label: '#800000 Vermelho Escuro'
+      label: '#800000 Vermelho Escuro',
     },
     lacuna16: {
       color: '#32CD32',
-      label: '#32CD32 Verde Lima'
+      label: '#32CD32 Verde Lima',
     },
     lacuna17: {
       color: '#000080',
-      label: '#000080 Azul Marinho'
+      label: '#000080 Azul Marinho',
     },
     lacuna18: {
       color: '#FF7F50',
-      label: '#FF7F50 Coral'
+      label: '#FF7F50 Coral',
     },
     lacuna19: {
       color: '#FA8072',
@@ -203,7 +203,7 @@ const defaultTheme = {
     },
     lacuna20: {
       color: '#E6E6FA',
-      label: '#E6E6FA Lavanda'
+      label: '#E6E6FA Lavanda',
     },
   },
   opacity: {
