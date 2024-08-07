@@ -110,6 +110,13 @@ const colorSchemeOptions = (theme: SupersetTheme) => [
   { value: theme.colors.lacuna62.color, label: theme.colors.lacuna62.label },
   { value: theme.colors.lacuna63.color, label: theme.colors.lacuna63.label },
   { value: theme.colors.lacuna64.color, label: theme.colors.lacuna64.label },
+  { value: theme.colors.lacuna65.color, label: theme.colors.lacuna65.label },
+  { value: theme.colors.lacuna66.color, label: theme.colors.lacuna66.label },
+  { value: theme.colors.lacuna67.color, label: theme.colors.lacuna67.label },
+  { value: theme.colors.lacuna68.color, label: theme.colors.lacuna68.label },
+  { value: theme.colors.lacuna69.color, label: theme.colors.lacuna69.label },
+  { value: theme.colors.lacuna70.color, label: theme.colors.lacuna70.label },
+  { value: theme.colors.lacuna71.color, label: theme.colors.lacuna71.label },
 ];
 
 const operatorOptions = [

@@ -289,123 +289,123 @@ const defaultTheme = {
       color: '#00CCCC',
       label: '#00CCCC CIANO ESCURO',
     },
-    lacuna41: {
+    lacuna42: {
       color: '#FFE6CC',
       label: '#FFE6CC LARANJA CLARO',
     },
-    lacuna42: {
+    lacuna43: {
       color: '#FFB266',
       label: '#FFB266 LARANJA MEDIO',
     },
-    lacuna43: {
+    lacuna44: {
       color: '#CC6600',
       label: '#CC6600 LARANJA ESCURO',
     },
-    lacuna44: {
+    lacuna45: {
       color: '#FFFFE6',
       label: '#FFFFE6 CREME CLARO',
     },
-    lacuna45: {
+    lacuna46: {
       color: '#FFFFB2',
       label: '#FFFFB2 CREME MEDIO',
     },
-    lacuna46: {
+    lacuna47: {
       color: '#CCCC66',
       label: '#CCCC66 CREME ESCURO',
     },
-    lacuna47: {
+    lacuna48: {
       color: '#E6E6FF',
       label: '#E6E6FF LILÁS CLARO',
     },
-    lacuna48: {
+    lacuna49: {
       color: '#B2B2FF',
       label: '#B2B2FF LILÁS MEDIO',
     },
-    lacuna49: {
+    lacuna50: {
       color: '#6666CC',
       label: '#6666CC LILÁS ESCURO',
     },
-    lacuna50: {
+    lacuna51: {
       color: '#E6FFE6',
       label: '#E6FFE6 MENTA CLARO',
     },
-    lacuna51: {
+    lacuna52: {
       color: '#B2FFB2',
       label: '#B2FFB2 MENTA MEDIO',
     },
-    lacuna52: {
+    lacuna53: {
       color: '#66CC66',
       label: '#66CC66 MENTA ESCURO',
     },
-    lacuna53: {
+    lacuna54: {
       color: '#FFCCFF',
       label: '#FFCCFF MAGENTA CLARO',
     },
-    lacuna54: {
+    lacuna55: {
       color: '#FF66FF',
       label: '#FF66FF MAGENTA MEDIO',
     },
-    lacuna55: {
+    lacuna56: {
       color: '#CC00CC',
       label: '#CC00CC MAGENTA ESCURO',
     },
-    lacuna56: {
+    lacuna57: {
       color: '#CCCCE6',
       label: '#CCCCE6 LAVANDA CLARO',
     },
-    lacuna57: {
+    lacuna58: {
       color: '#6666B2',
       label: '#6666B2 LAVANDA MEDIO',
     },
-    lacuna58: {
+    lacuna59: {
       color: '#000066',
       label: '#000066 LAVANDA ESCURO',
     },
-    lacuna56: {
+    lacuna60: {
       color: '#FFEBCC',
       label: '#FFEBCC PÊSSEGO CLARO',
     },
-    lacuna57: {
+    lacuna61: {
       color: '#FFBF66',
       label: '#FFBF66 PÊSSEGO MEDIO',
     },
-    lacuna58: {
+    lacuna62: {
       color: '#CC6600',
       label: '#CC6600 PÊSSEGO ESCURO',
     },
-    lacuna56: {
+    lacuna63: {
       color: '#CCFFEB',
       label: '#CCFFEB TURQUESA CLARO',
     },
-    lacuna57: {
+    lacuna64: {
       color: '#66FFBF',
       label: '#66FFBF TURQUESA MEDIO',
     },
-    lacuna58: {
+    lacuna65: {
       color: '#00CC66',
       label: '#00CC66 TURQUESA ESCURO',
     },
-    lacuna59: {
+    lacuna66: {
       color: '#FFF2CC',
       label: '#FFF2CC MARFIM CLARO',
     },
-    lacuna60: {
+    lacuna67: {
       color: '#FFE066',
       label: '#FFE066 MARFIM MEDIO',
     },
-    lacuna61: {
+    lacuna68: {
       color: '#CCAA00',
       label: '#CCAA00 MARFIM ESCURO',
     },
-    lacuna62: {
+    lacuna69: {
       color: '#FFCCF2',
       label: '#FFCCF2 SALMÃO CLARO',
     },
-    lacuna63: {
+    lacuna70: {
       color: '#FF66BF',
       label: '#FF66BF SALMÃO MEDIO',
     },
-    lacuna64: {
+    lacuna71: {
       color: '#CC0066',
       label: '#CC0066 SALMÃO ESCURO',
     },
