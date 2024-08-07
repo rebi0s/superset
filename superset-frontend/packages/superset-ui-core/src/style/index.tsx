@@ -125,6 +125,13 @@ const defaultTheme = {
       light1: '#B3DEFE',
       light2: '#EFF8FE',
     },
+    lacuna1: {
+      base: '#FF0000',
+      dark1: '#4D8CBE',
+      dark2: '#315E7E',
+      light1: '#B3DEFE',
+      light2: '#EFF8FE',
+    },
   },
   opacity: {
     light: '10%',
