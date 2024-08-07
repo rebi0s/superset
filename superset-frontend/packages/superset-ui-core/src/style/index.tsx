@@ -151,11 +151,11 @@ const defaultTheme = {
     },
     lacuna7: {
       color: '#FFC0CB',
-      label: '#FFC0CB Rosa'
+      label: '#FFC0CB Rosa',
     },
     lacuna8: {
       color: '#8B4513',
-      label: '#8B4513 Marrom'
+      label: '#8B4513 Marrom',
     },
     lacuna9: {
       color: '#808080',
@@ -199,7 +199,7 @@ const defaultTheme = {
     },
     lacuna19: {
       color: '#FA8072',
-      label: '#FA8072 Salmão'
+      label: '#FA8072 Salmão',
     },
     lacuna20: {
       color: '#E6E6FA',
