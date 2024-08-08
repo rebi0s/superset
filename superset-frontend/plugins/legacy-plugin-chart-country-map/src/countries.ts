@@ -135,6 +135,7 @@ import montenegro from './countries/montenegro.geojson';
 import montserrat from './countries/montserrat.geojson';
 import morocco from './countries/morocco.geojson';
 import mozambique from './countries/mozambique.geojson';
+import municipios from './countries/municipios_poly.geojson';
 import myanmar from './countries/myanmar.geojson';
 import namibia from './countries/namibia.geojson';
 import nauru from './countries/nauru.geojson';
@@ -335,6 +336,7 @@ export const countries = {
   montserrat,
   morocco,
   mozambique,
+  municipios,
   myanmar,
   namibia,
   nauru,
