@@ -3176,7 +3176,7 @@
 { "type": "Feature", "properties": { "ISO": "3205150", "NAME_1": "Vila Pavão", "SIGLA_UF": "BR-ES", "AREA_KM2": 433.257 }, "geometry": { "type": "Point", "coordinates": [ -40.627155477510023, -18.614241277152658 ] } },
 { "type": "Feature", "properties": { "ISO": "3205176", "NAME_1": "Vila Valério", "SIGLA_UF": "BR-ES", "AREA_KM2": 470.343 }, "geometry": { "type": "Point", "coordinates": [ -40.329505922668609, -18.96659380158415 ] } },
 { "type": "Feature", "properties": { "ISO": "3205200", "NAME_1": "Vila Velha", "SIGLA_UF": "BR-ES", "AREA_KM2": 210.225 }, "geometry": { "type": "Point", "coordinates": [ -40.378255421964234, -20.434083741872453 ] } },
-{ "type": "Feature", "properties": { "ISO": "3205309", "NAME_1": "Vitória", "SIGLA_UF": "BR-ES", "AREA_KM2": 97.123 }, "geometry": { "type": "Point", "coordinates": [ -39.087961866977878, -20.304009795071192 ] } },
+{ "type": "Feature", "properties": { "ISO": "3205309", "NAME_1": "Vitória", "SIGLA_UF": "BR-ES", "AREA_KM2": 97.123 }, "geometry": { "type": "Point", "coordinates": [ -40.378255421964234, -20.304009795071192 ] } },
 { "type": "Feature", "properties": { "ISO": "3300100", "NAME_1": "Angra dos Reis", "SIGLA_UF": "BR-RJ", "AREA_KM2": 813.42 }, "geometry": { "type": "Point", "coordinates": [ -44.352753097880814, -22.986551395537003 ] } },
 { "type": "Feature", "properties": { "ISO": "3300159", "NAME_1": "Aperibé", "SIGLA_UF": "BR-RJ", "AREA_KM2": 94.542 }, "geometry": { "type": "Point", "coordinates": [ -42.134665555410763, -21.652291967605638 ] } },
 { "type": "Feature", "properties": { "ISO": "3300209", "NAME_1": "Araruama", "SIGLA_UF": "BR-RJ", "AREA_KM2": 638.276 }, "geometry": { "type": "Point", "coordinates": [ -42.292909385500359, -22.755347067912247 ] } },
