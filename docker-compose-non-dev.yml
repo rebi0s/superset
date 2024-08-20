@@ -43,6 +43,8 @@ services:
     restart: unless-stopped
     volumes:
       - redis:/data
+    extra_hosts:
+      - host.docker.internal:host-gateway
 
   db:
     env_file:
@@ -53,6 +55,8 @@ services:
     volumes:
       - db_home:/var/lib/postgresql/data
       - ./docker/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+    extra_hosts:
+      - host.docker.internal:host-gateway
 
   superset:
     env_file:
@@ -67,6 +71,8 @@ services:
       - 8088:8088
     depends_on: *superset-depends-on
     volumes: *superset-volumes
+    extra_hosts:
+      - host.docker.internal:host-gateway
 
   superset-init:
     container_name: superset_init
@@ -80,6 +86,8 @@ services:
     volumes: *superset-volumes
     healthcheck:
       disable: true
+    extra_hosts:
+      - host.docker.internal:host-gateway
 
   superset-worker:
     build:
@@ -98,6 +106,8 @@ services:
           "CMD-SHELL",
           "celery -A superset.tasks.celery_app:app inspect ping -d celery@$$HOSTNAME",
         ]
+    extra_hosts:
+      - host.docker.internal:host-gateway
 
   superset-worker-beat:
     build:
@@ -112,6 +122,8 @@ services:
     volumes: *superset-volumes
     healthcheck:
       disable: true
+    extra_hosts:
+      - host.docker.internal:host-gateway
 
 volumes:
   superset_home:
