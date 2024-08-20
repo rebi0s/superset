@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
-"name": "SELECT",
+"name": "municipios_centroid",
 "features": [
 { "type": "Feature", "properties": { "ISO": "1100015", "NAME_1": "Alta Floresta D'Oeste", "SIGLA_UF": "BR-RO", "AREA_KM2": 7067.127 }, "geometry": { "type": "Point", "coordinates": [ -62.274660996031614, -12.47013227818517 ] } },
 { "type": "Feature", "properties": { "ISO": "1100023", "NAME_1": "Ariquemes", "SIGLA_UF": "BR-RO", "AREA_KM2": 4426.571 }, "geometry": { "type": "Point", "coordinates": [ -62.957255222993844, -9.951890006604936 ] } },
