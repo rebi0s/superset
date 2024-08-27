@@ -33,7 +33,7 @@
 .superset-legacy-chart-country-map .map-layer {
   fill: #fff;
   stroke: #aaa;
-  stroke-opacity: 0.5;
+  stroke-opacity: 0;
 }
 
 .superset-legacy-chart-country-map .effect-layer {
@@ -59,4 +59,5 @@
 .superset-legacy-chart-country-map path.region {
   cursor: pointer;
   stroke: #eee;
+  stroke-opacity: 0;
 }
