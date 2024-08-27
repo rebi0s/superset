@@ -409,6 +409,10 @@ const defaultTheme = {
       color: '#CC0066',
       label: '#CC0066 SALMÃO ESCURO',
     },
+    lacuna72: {
+      color: '#CC0066',
+      label: '#CC0066 SALMÃO ESCURO',
+    },
   },
   opacity: {
     light: '10%',

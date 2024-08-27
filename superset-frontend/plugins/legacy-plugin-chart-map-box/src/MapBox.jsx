@@ -26,7 +26,7 @@ import ScatterPlotGlowOverlay from './ScatterPlotGlowOverlay';
 import './MapBox.css';
 
 const NOOP = () => {};
-export const DEFAULT_MAX_ZOOM = 16;
+export const DEFAULT_MAX_ZOOM = 32;
 export const DEFAULT_POINT_RADIUS = 60;
 
 const propTypes = {
@@ -49,7 +49,7 @@ const propTypes = {
 const defaultProps = {
   width: 400,
   height: 400,
-  globalOpacity: 1,
+  globalOpacity: 0.7,
   onViewportChange: NOOP,
   pointRadius: DEFAULT_POINT_RADIUS,
   pointRadiusUnit: 'Pixels',
