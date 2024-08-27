@@ -33,6 +33,7 @@
 .superset-legacy-chart-country-map .map-layer {
   fill: #fff;
   stroke: #aaa;
+  stroke-opacity: 0.5;
 }
 
 .superset-legacy-chart-country-map .effect-layer {
