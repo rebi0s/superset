@@ -106,13 +106,9 @@ function CountryMap(element, props) {
     const hasCenter = d && centered !== d;
     let x;
     let y;
-    let hx;
-    let hy;
     let k = 0;
     const halfWidth = width / 2;
     const halfHeight = height / 2;
-    hx = halfWidth;
-    hy = halfHeight;
 
     if (hasCenter) {
       const centroid = path.centroid(d);
@@ -120,23 +116,22 @@ function CountryMap(element, props) {
 
       if (k < 16) {
         k += zoomLevel;
-        hx *= 2;
-        hy *= 2;
+        centered = d;
+      } else {
+        centered = null;
       }
 
-      centered = d;
     } else {
       x = halfWidth;
       y = halfHeight;
-      k += zoomLevel;
-      centered = null;
+      k = 1;
     }
 
     g.transition()
       .duration(750)
       .attr(
         'transform',
-        `translate(${hx},${hy})scale(${k})translate(${-x},${-y})`,
+        `translate(${hx},${halfWidth})scale(${halfHeight})translate(${-x},${-y})`,
       );
     textLayer
       .style('opacity', 0)
