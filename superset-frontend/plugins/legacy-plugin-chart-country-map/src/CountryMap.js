@@ -101,12 +101,12 @@ function CountryMap(element, props) {
 
   let centered;
   const zoomLevel = 2;
+  let k = 0;
 
   const clicked = function clicked(d) {
     const hasCenter = d && centered !== d;
     let x;
     let y;
-    let k = 0;
     const halfWidth = width / 2;
     const halfHeight = height / 2;
 
