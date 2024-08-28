@@ -110,23 +110,23 @@ function CountryMap(element, props) {
     const halfWidth = width / 2;
     const halfHeight = height / 2;
 
-    if (hasCenter) {
+    if (hasCenter && k < 16) {
       const centroid = path.centroid(d);
       [x, y] = centroid;
-      if(k!=zoomLevel)
+      
+	  if( k !== zoomLevel )
 	  {
          k += zoomLevel;
 	  }
+	  
       centered = d;
     } else {
 	
-  	    if(k>16)
-		{
-           x = halfWidth;
-           y = halfHeight;
-           k = 1;
-           centered = null;
-		}
+       x = halfWidth;
+       y = halfHeight;
+       k = 1;
+       centered = null;
+
     }
 
     g.transition()
