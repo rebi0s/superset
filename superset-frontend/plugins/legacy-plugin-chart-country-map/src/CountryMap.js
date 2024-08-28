@@ -99,14 +99,14 @@ function CountryMap(element, props) {
     .classed('result-text', true)
     .attr('dy', '1em');
 
-  let centered;
-  let zoomLevel=4;
+  let   centered;
+  const zoomLevel=4;
   
   const clicked = function clicked(d) {
     const hasCenter = d && centered !== d;
     let x;
     let y;
-    let k=zoomLevel;
+    let k = zoomLevel;
     const halfWidth = width / 2;
     const halfHeight = height / 2;
 
