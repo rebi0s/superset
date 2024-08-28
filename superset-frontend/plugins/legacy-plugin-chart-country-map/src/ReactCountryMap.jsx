@@ -44,7 +44,7 @@ export default styled(CountryMap)`
 
     .superset-legacy-chart-country-map .map-layer {
       fill: ${theme.colors.grayscale.light5};
-      stroke: ${theme.colors.grayscale.light1};
+      stroke: none};
     }
 
     .superset-legacy-chart-country-map .effect-layer {
@@ -69,7 +69,7 @@ export default styled(CountryMap)`
 
     .superset-legacy-chart-country-map path.region {
       cursor: pointer;
-      stroke: ${theme.colors.grayscale.light2};
+      stroke: none;
     }
   `}
 `;
