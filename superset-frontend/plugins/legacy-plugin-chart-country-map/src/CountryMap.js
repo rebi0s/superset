@@ -120,7 +120,6 @@ function CountryMap(element, props) {
       } else {
         centered = null;
       }
-
     } else {
       x = halfWidth;
       y = halfHeight;
@@ -131,7 +130,7 @@ function CountryMap(element, props) {
       .duration(750)
       .attr(
         'transform',
-        `translate(${hx},${halfWidth})scale(${halfHeight})translate(${-x},${-y})`,
+        `translate(${halfWidth},${halfHeight})scale(${k})translate(${-x},${-y})`,
       );
     textLayer
       .style('opacity', 0)
