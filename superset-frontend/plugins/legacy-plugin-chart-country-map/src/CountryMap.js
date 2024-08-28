@@ -114,18 +114,18 @@ function CountryMap(element, props) {
       const centroid = path.centroid(d);
       [x, y] = centroid;
 
-     if(k !== zoomLevel)
+     if (k !== zoomLevel)
      {
-         k += zoomLevel;
-     }
+        k += zoomLevel;
+      }
 
       centered = d;
     } else {
 
-       x = halfWidth;
-       y = halfHeight;
-       k = 1;
-       centered = null;
+     x = halfWidth;
+     y = halfHeight;
+     k = 1;
+     centered = null;
 
     }
 
