@@ -100,25 +100,33 @@ function CountryMap(element, props) {
     .attr('dy', '1em');
 
   let centered;
-
+  let zoomLevel=4;
+  
   const clicked = function clicked(d) {
     const hasCenter = d && centered !== d;
     let x;
     let y;
-    let k;
+    let k=zoomLevel;
     const halfWidth = width / 2;
     const halfHeight = height / 2;
 
     if (hasCenter) {
       const centroid = path.centroid(d);
       [x, y] = centroid;
-      k = 4;
+      if(k!=zoomLevel)
+	  {
+         k += zoomLevel;
+	  }
       centered = d;
     } else {
-      x = halfWidth;
-      y = halfHeight;
-      k = 1;
-      centered = null;
+	
+  	    if(k>16)
+		{
+           x = halfWidth;
+           y = halfHeight;
+           k = 1;
+           centered = null;
+		}
     }
 
     g.transition()
