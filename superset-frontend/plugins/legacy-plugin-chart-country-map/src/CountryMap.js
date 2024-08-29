@@ -120,7 +120,7 @@ function CountryMap(element, props) {
         x = halfWidth;
         y = halfHeight;
         centered = null;
-        k = 1;
+        k = 4;
       }
     } else if (k < 16) {
       k += zoomLevel;
