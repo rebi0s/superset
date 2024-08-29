@@ -125,7 +125,6 @@ function CountryMap(element, props) {
     } else
       if (k < 16)
         k += zoomLevel;
-    }
 
     g.transition()
       .duration(750)
