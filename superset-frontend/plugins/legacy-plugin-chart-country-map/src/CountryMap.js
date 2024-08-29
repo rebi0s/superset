@@ -110,6 +110,8 @@ function CountryMap(element, props) {
     const halfWidth = width / 2;
     const halfHeight = height / 2;
 
+    alert(e.button);
+
     if (hasCenter) {
       const centroid = path.centroid(d);
       [x, y] = centroid;
