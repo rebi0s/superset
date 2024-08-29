@@ -123,9 +123,9 @@ function CountryMap(element, props) {
     } else {
       k -= zoomLevel;
       if (k < 2) {
-       x = halfWidth;
-       y = halfHeight;
-       k = 1;
+        x = halfWidth;
+        y = halfHeight;
+        k = 1;
       }
     }
 
