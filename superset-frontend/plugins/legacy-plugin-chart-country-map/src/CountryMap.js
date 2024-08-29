@@ -104,7 +104,7 @@ function CountryMap(element, props) {
   let k = 6;
 
   const clicked = function clicked(d) {
-    const hasCenter = d && centered !== d;
+    let hasCenter = d && centered !== d;
     let x;
     let y;
     const halfWidth = width / 2;
