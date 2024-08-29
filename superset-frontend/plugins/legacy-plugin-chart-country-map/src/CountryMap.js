@@ -124,6 +124,7 @@ function CountryMap(element, props) {
       }
     } else if (k < 16) {
       k += zoomLevel;
+      hasCenter = true;
     }
 
     g.transition()
