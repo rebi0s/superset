@@ -101,7 +101,7 @@ function CountryMap(element, props) {
 
   let centered;
   const zoomLevel = 2;
-  let k = 0;
+  let k = 6;
 
   const clicked = function clicked(d) {
     const hasCenter = d && centered !== d;
@@ -114,11 +114,6 @@ function CountryMap(element, props) {
 
     if (hasCenter) {
       centered = d;
-
-      if (k < 16) {
-        k += zoomLevel;
-      }
-    } else {
       k -= zoomLevel;
 
       if (k < 2) {
@@ -126,6 +121,10 @@ function CountryMap(element, props) {
         y = halfHeight;
         centered = null;
         k = 1;
+      }
+    } else {
+      if (k < 16) {
+        k += zoomLevel;
       }
     }
 
