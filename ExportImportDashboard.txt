@@ -1,0 +1,40 @@
+
+1- Acesse a máquina de origem e vá para a pasta do superset 
+
+2- Execute o comando de exportação do Dashboard 
+
+   sudo docker compose exec superset superset export-dashboards
+
+3- Execute o comando listar o arquivo gerado 
+ 
+   sudo docker compose exec superset ls -l
+
+4- Copie o arquivo gerado para a máquina local
+
+   docker compose cp superset:/app/dashboard_export_20240903T214739.zip .
+
+5- Descompacte o arquivo gerado e e remova do arquivo yaml na pasta Databases a parte do scema-extras. O arquivo deve ficar como o exemplo abaixo.
+database_name: examples
+sqlalchemy_uri: postgresql://examples:XXXXXXXXXX@db:5432/examples
+cache_timeout: null
+expose_in_sqllab: true
+allow_run_async: false
+allow_ctas: true
+allow_cvas: true
+allow_dml: true
+allow_file_upload: true
+uuid: a2dc77af-e654-49bb-b321-40f6b559a1ee
+version: 1.0.0
+
+8- Compacte o arquivo novamente e copie para a pasta de destino
+
+   scp ubuntu@143.106.73.11:/mnt/d/workspace/superset/dashboard_export_20240903T214739.zip .
+
+7 - Copie o arquivo para dentro do container so superset
+
+    sudo docker compose cp ./dashboard_export_20240903T214739.zip superset:/app/
+
+8 - Execute a importação do Dashboard dentro do container 
+
+    sudo docker compose exec superset superset import-dashboards -u admin --path /app/dashboard_export_20240903T214739.zip
+
