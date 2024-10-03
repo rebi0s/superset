@@ -265,6 +265,8 @@ pyasn1-modules==0.4.0
     # via google-auth
 pycparser==2.22
     # via cffi
+pyhive[hive_pure_sasl]==0.7.0
+    # via apache-superset
 pygments==2.18.0
     # via rich
 pyjwt==2.8.0

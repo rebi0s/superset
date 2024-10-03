@@ -28,13 +28,13 @@ version: 1.0.0
 
 8- Compacte o arquivo novamente e copie para a pasta de destino
 
-   scp ubuntu@143.106.73.11:/mnt/d/workspace/superset/dashboard_export_20240903T214739.zip .
+   scp ubuntu@143.106.73.11:/mnt/d/workspace/superset/dashboard_export.zip .
 
 7 - Copie o arquivo para dentro do container so superset
 
-    sudo docker compose cp ./dashboard_export_20240903T214739.zip superset:/app/
+    sudo docker compose cp ./dashboard_export.zip superset:/app/
 
 8 - Execute a importação do Dashboard dentro do container 
 
-    sudo docker compose exec superset superset import-dashboards -u admin --path /app/dashboard_export_20240903T214739.zip
+    sudo docker compose exec superset superset import-dashboards -u admin --path /app/dashboard_export.zip
 
