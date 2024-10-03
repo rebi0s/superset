@@ -167,7 +167,7 @@ DEFAULT_TIME_FILTER = NO_TIME_RANGE
 # [load balancer / proxy / envoy / kong / ...] timeout settings.
 # You should also make sure to configure your WSGI server
 # (gunicorn, nginx, apache, ...) timeout setting to be <= to this setting
-SUPERSET_WEBSERVER_TIMEOUT = int(timedelta(minutes=1).total_seconds())
+SUPERSET_WEBSERVER_TIMEOUT = int(timedelta(minutes=3).total_seconds())
 
 # this 2 settings are used by dashboard period force refresh feature
 # When user choose auto force refresh frequency
@@ -2169,10 +2169,10 @@ STATIC_ASSETS_PREFIX = ""
 
 # Some sqlalchemy connection strings can open Superset to security risks.
 # Typically these should not be allowed.
-PREVENT_UNSAFE_DB_CONNECTIONS = True
+PREVENT_UNSAFE_DB_CONNECTIONS = False
 
 # If true all default urls on datasets will be handled as relative URLs by the frontend
-PREVENT_UNSAFE_DEFAULT_URLS_ON_DATASET = True
+PREVENT_UNSAFE_DEFAULT_URLS_ON_DATASET = False
 
 # Define a list of allowed URLs for dataset data imports (v1).
 # Simple example to only allow URLs that belong to certain domains:

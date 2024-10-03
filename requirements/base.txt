@@ -76,6 +76,7 @@ colorama==0.4.6
     #   flask-appbuilder
 cron-descriptor==1.4.3
     # via apache-superset
+	
 croniter==2.0.5
     # via apache-superset
 cryptography==42.0.7
@@ -403,3 +404,26 @@ zipp==3.19.0
     # via importlib-metadata
 zstandard==0.22.0
     # via flask-compress
+future==0.18.3
+    # via pyhive
+pure-sasl==0.6.2
+    # via
+    #   pyhive
+    #   thrift-sasl
+pyhive[hive_pure_sasl]==0.7.0
+    # via apache-superset
+thrift==0.16.0
+    # via
+    #   apache-superset
+    #   pyhive
+    #   thrift-sasl
+thrift-sasl==0.4.3
+    # via
+    #   build
+    #   coverage
+    #   pip-tools
+    #   pylint
+    #   pyproject-api
+    #   pyproject-hooks
+    #   pytest
+    #   tox
