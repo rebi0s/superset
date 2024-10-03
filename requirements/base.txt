@@ -410,6 +410,8 @@ pure-sasl==0.6.2
     # via
     #   pyhive
     #   thrift-sasl
+psycopg2-binary==2.9.6
+    # via apache-superset
 pyhive[hive_pure_sasl]==0.7.0
     # via apache-superset
 thrift==0.16.0
