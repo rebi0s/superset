@@ -853,286 +853,188 @@ THEME_OVERRIDES: dict[str, Any] = {}
 # EXTRA_SEQUENTIAL_COLOR_SCHEMES: list[dict[str, Any]] = []
 EXTRA_SEQUENTIAL_COLOR_SCHEMES =  [
     {
-        "id": 'lacunaVermelho',
+        "id": 'mapaLaranja',
         "description": '',
-        "isDiverging": True,
-        "label": 'Lacuna Vermelho',
+        "label": 'Mapa Laranja',
         "isDefault": True,
         "colors":
-        ['#FFCCCC', '#FF9999', '#FF6666', '#FF3333', '#FF0000', '#CC0000', '#990000',
-         '#660000', '#330000', '#FF4444', '#FF8888', '#FFAAAA', '#FF5555', '#FF7777']
+        ['#FFE6CC', '#FFCC80', '#FF9933', '#FF6600']
     }, {
-        "id": 'lacunaAzul',
+        "id": 'mapaAzul',
         "description": '',
-        "isDiverging": True,
-        "label": 'Lacuna Azul',
+        "label": 'Mapa Azul',
+        "isDefault": True,
+        "colors":
+        [         '#E6F0FF', '#99C2FF', '#4D94FF', '#0059B3']
+    },
+    {
+        "id": 'mapaVerde',
+        "description": '',
+        "label": 'Mapa Verde',
+        "isDefault": True,
+        "colors":
+        [         '#E6FFE6', '#99FF99', '#33CC33', '#008000',
+    }, {
+        "id": 'mapaVermelho',
+        "description": '',
+        "label": 'Mapa Vermelho',
+        "isDefault": True,
+        "colors":
+        [         '#FFE6E6', '#FF9999', '#FF4D4D', '#B30000',
+    }, {
+        "id": 'mapaRoxo',
+        "description": '',
+        "label": 'Mapa Roxo',
+        "isDefault": True,
+        "colors":
+        [         '#F0E6FF', '#D1B3FF', '#A366FF', '#6600CC',
+    }, {
+        "id": 'mapaAmarelo',
+        "description": '',
+        "label": 'Mapa Amarelo',
+        "isDefault": True,
+        "colors":
+        [         '#FFFFE6', '#FFFF99', '#FFCC00', '#B38F00',
+    }, {
+        "id": 'mapaRosa',
+        "description": '',
+        "label": 'Mapa Rosa',
+        "isDefault": True,
+        "colors":
+        [         '#FFE6F0', '#FF99CC', '#FF4DA6', '#B30059',
+    }, {
+        "id": 'mapaMarrom',
+        "description": '',
+        "label": 'Mapa Marrom',
+        "isDefault": True,
+        "colors":
+        [         '#F2E6D9', '#CC9966', '#A65C00', '#663300',
+    }, {
+        "id": 'mapaCinza',
+        "description": '',
+        "label": 'Mapa Cinza',
+        "isDefault": True,
+        "colors":
+        [         '#F2F2F2', '#CCCCCC', '#808080', '#333333',
+    }, {
+        "id": 'mapaCiano',
+        "description": '',
+        "label": 'Purple Blue Green',
+        "isDefault": True,
+        "colors":
+        [         '#E0FFFF', '#80FFFF', '#00CCCC', '#006666',
+    }, {
+        "id": 'mapaVerdeOliva',
+        "description": '',
+        "label": 'Mapa Verde Oliva',
+        "isDefault": True,
+        "colors":
+        [         '#F5F5DC', '#CCCC99', '#999966', '#666633',
+    }, {
+        "id": 'mapaTurquesa',
+        "description": '',
+        "label": 'Mapa Turquesa',
+        "isDefault": True,
+        "colors":
+        [         '#E0F7FA', '#80DEEA', '#00ACC1', '#006064',
+    }, {
+        "id": 'mapaVinho',
+        "description": '',
+        "label": 'Mapa Vinho',
+        "isDefault": True,
+        "colors":
+        [         '#FDECEC', '#F59A9A', '#EF5350', '#B71C1C',
+    }, {
+        "id": 'mapaDourado',
+        "description": '',
+        "label": 'Mapa Dourado',
+        "isDefault": True,
+        "colors":
+        [         '#FFF9E6', '#FFE280', '#FFB84D', '#CC8400',
+    }, {
+        "id": 'mapaVioleta',
+        "description": '',
+        "label": 'Mapa Violeta',
+        "isDefault": True,
+        "colors":
+        [         '#F3E5F5', '#CE93D8', '#AB47BC', '#6A1B9A',
+    }, {
+        "id": 'mapaVerdeLima',
+        "description": '',
+        "label": 'Mapa Verde Lima',
+        "isDefault": True,
+        "colors":
+        [         '#F0FFE6', '#CFFF99', '#8CBF26', '#5A8000',
+    }, {
+        "id": 'mapaSalmao',
+        "description": '',
+        "label": 'Mapa Salmao',
+        "isDefault": True,
+        "colors":
+        [         '#FFE4E1', '#FFB8A3', '#FF7F50', '#FF6347',
+    }, {
+        "id": 'mapaPessego',
+        "description": '',
+        "label": 'Mapa Pessego',
+        "isDefault": True,
+        "colors":
+        [         '#FFDAB9', '#FFC49C', '#FF9966', '#FF8040',
+    }, {
+        "id": 'mapaCarmesim',
+        "description": '',
+        "label": 'Mapa Carmesim',
+        "isDefault": True,
+        "colors":
+        [         '#DC143C', '#A6102B', '#8B0E23', '#700A1A',
+    }, {
+        "id": 'mapaLavanda',
+        "description": '',
+        "label": 'Mapa Lavanda',
+        "isDefault": True,
+        "colors":
+        [         '#E6E6FA', '#DDA0DD', '#EE82EE', '#DA70D6',
+    }, {
+        "id": 'mapaMenta',
+        "description": '',
+        "label": 'Mapa Menta',
+        "isDefault": True,
+        "colors":
+        [         '#F5FFFA', '#99FF99', '#66FF66', '#33FF33',
+    }, {
+        "id": 'mapaOcre',
+        "description": '',
+        "label": 'Mapa Ocre',
+        "isDefault": True,
+        "colors":
+        [         '#CC7722', '#996019', '#804514', '#66390E',
+    }, {
+        "id": 'mapaCobre',
+        "description": '',
+        "label": 'Mapa Cobre',
+        "isDefault": True,
+        "colors":
+        [         '#B87333', '#8A4C24', '#6D3A1E', '#552D18',
+    }, {
+        "id": 'mapaPrata',
+        "description": '',
+        "label": 'Mapa Prata',
+        "isDefault": True,
+        "colors":
+        [         '#C0C0C0', '#A0A0A0', '#909090', '#808080']
+    }, {
+        "id": 'mapaBronze',
+        "description": '',
+        "label": 'Mapa Bronze',
+        "isDefault": True,
+        "colors":
+        ['#CD7F32', '#B37028', '#804F1A', '#663F14']
+    }, {
+        "id": 'verde_lima2',
+        "description": '',
+        "label": 'Lacuna Verde_Lima2',
         "isDefault": False,
         "colors":
-        ['#CCCCFF', '#9999FF', '#6666FF', '#3333FF', '#0000FF', '#0000CC', '#000099',
-         '#000066', '#000033', '#4444FF', '#8888FF', '#AAAAFF', '#5555FF', '#7777FF']
-    }, {
-        "id": 'lacunaVerde',
-        "description": '',
-        "isDiverging": True,
-        "label": 'Lacuna Verde',
-        "isDefault": False,
-        "colors":
-        ['#CCFFCC', '#99FF99', '#66FF66', '#33FF33', '#00FF00', '#00CC00', '#009900',
-         '#006600', '#003300', '#44FF44', '#88FF88', '#AAFFAA', '#55FF55', '#77FF77']
-    }, {
-        "id": 'lacunaAmarelo',
-        "description": '',
-        "isDiverging": True,
-        "label": 'Lacuna Amarelo',
-        "isDefault": False,
-        "colors":
-        ['#FFFFCC', '#FFFF99', '#FFFF66', '#FFFF33', '#FFFF00', '#CCCC00', '#999900',
-         '#666600', '#333300', '#FFFF44', '#FFFF88', '#FFFFAA', '#FFFF55', '#FFFF77']
-    }, {
-        "id": 'lacunaRoxo',
-        "description": '',
-        "isDiverging": True,
-        "label": 'Lacuna Roxo',
-        "isDefault": False,
-        "colors":
-        ['#E6CCFF', '#D1B2FF', '#BB99FF', '#A580FF', '#8F66FF', '#794DFF', '#6233FF',
-         '#4C19FF', '#3600FF', '#9D44FF', '#A388FF', '#B5AAFF', '#8C55FF', '#9277FF']
-    }, {
-        "id": 'lacunaRosa',
-        "description": '',
-        "isDiverging": True,
-        "label": 'Lacuna Rosa',
-        "isDefault": False,
-        "colors":
-        ['#FFCCE6', '#FF99CC', '#FF66B2', '#FF3399', '#FF0080', '#CC0066', '#99004D',
-         '#660033', '#330019', '#FF4477', '#FF88AA', '#FFAAFF', '#FF55AA', '#FF77CC']
-    }, {
-        "id": 'lacunaCiano',
-        "description": '',
-        "isDiverging": True,
-        "label": 'Lacuna Ciano',
-        "isDefault": False,
-        "colors":
-        ['#CCFFFF', '#99FFFF', '#66FFFF', '#33FFFF', '#00FFFF', '#00CCCC', '#009999',
-         '#006666', '#003333', '#44FFFF', '#88FFFF', '#AAFFFF', '#55FFFF', '#77FFFF']
-    }, {
-        "id": 'lacunaLaranja',
-        "description": '',
-        "isDiverging": True,
-        "label": 'Lacuna Laranja',
-        "isDefault": False,
-        "colors":
-        ['#FFE6CC', '#FFCC99', '#FFB266', '#FF9933', '#FF8000', '#CC6600', '#994D00',
-         '#663300', '#331900', '#FF8844', '#FFAA88', '#FFCCAA', '#FF9955', '#FFBB77']
-    }, {
-        "id": 'lacunaCreme',
-        "description": '',
-        "isDiverging": True,
-        "label": 'Lacuna Creme',
-        "isDefault": False,
-        "colors":
-        ['#FFFFE6', '#FFFFCC', '#FFFFB2', '#FFFF99', '#FFFF80', '#CCCC66', '#99994D',
-         '#666633', '#333319', '#FFFF88', '#FFFFAA', '#FFFFCC', '#FFFF55', '#FFFF77']
-    }, {
-        "id": 'lacunaLilas',
-        "description": '',
-        "isDiverging": True,
-        "label": 'Lacuna Lilás',
-        "isDefault": False,
-        "colors":
-        ['#E6E6FF', '#CCCCFF', '#B2B2FF', '#9999FF', '#8080FF', '#6666CC', '#4D4D99',
-         '#333366', '#191933', '#8888FF', '#AAAAFF', '#CCCCFF', '#5555FF', '#7777FF']
-    }, {
-        "id": 'lacunaMenta',
-        "description": '',
-        "isDiverging": True,
-        "label": 'Lacuna Menta',
-        "isDefault": False,
-        "colors":
-        ['#E6FFE6', '#CCFFCC', '#B2FFB2', '#99FF99', '#80FF80', '#66CC66', '#4D994D',
-         '#336633', '#193319', '#88FF88', '#AAFFAA', '#CCFFCC', '#55FF55', '#77FF77']
-    }, {
-        "id": 'lacunaMagenta',
-        "description": '',
-        "isDiverging": True,
-        "label": 'Lacuna Magenta',
-        "isDefault": False,
-        "colors":
-        ['#FFCCFF', '#FF99FF', '#FF66FF', '#FF33FF', '#FF00FF', '#CC00CC', '#990099',
-         '#660066', '#330033', '#FF44FF', '#FF88FF', '#FFAAFF', '#FF55FF', '#FF77FF']
-    }, {
-        "id": 'lacunaLavanda',
-        "description": '',
-        "isDiverging": True,
-        "label": 'Lacuna Lavanda',
-        "isDefault": False,
-        "colors":
-        ['#CCCCE6', '#B2B2D1', '#9999BB', '#8080A5', '#66668F', '#4D4D79', '#333363',
-         '#19194C', '#000036', '#44449D', '#8888A3', '#AAAAA5', '#55558C', '#777792']
-    }, {
-        "id": 'lacunaPessego',
-        "description": '',
-        "isDiverging": True,
-        "label": 'Lacuna Pêssego',
-        "isDefault": False,
-        "colors":
-        ['#FFEBCC', '#FFD6B2', '#FFC299', '#FFAD80', '#FF9966', '#CC7A52', '#995C3D',
-         '#663D29', '#331E14', '#FF8844', '#FFAA88', '#FFCCAA', '#FF9955', '#FFBB77']
-    }, {
-        "id": 'lacunaTurquesa',
-        "description": '',
-        "isDiverging": True,
-        "label": 'Lacuna Turquesa',
-        "isDefault": False,
-        "colors":
-        ['#CCFFEB', '#99FFD6', '#66FFBF', '#33FFA6', '#00FF80', '#00CC66', '#00994D',
-         '#006633', '#003319', '#44FF88', '#88FFAA', '#AAFFCC', '#55FF99', '#77FFBB']
-    }, {
-        "id": 'lacunaMarfim',
-        "description": '',
-        "isDiverging": True,
-        "label": 'Lacuna Marfim',
-        "isDefault": False,
-        "colors":
-        ['#FFF2CC', '#FFE0B2', '#FFCC99', '#FFB880', '#FFA566', '#CC824D', '#995E33',
-         '#663B1A', '#331D0D', '#FFAA44', '#FFCC88', '#FFEEAA', '#FFBB55', '#FFDDBB']
-    }, {
-        "id": 'lacunaSalmao',
-        "description": '',
-        "isDiverging": True,
-        "label": 'Lacuna Salmão',
-        "isDefault": False,
-        "colors":
-        ['#FFCCF2', '#FF99E5', '#FF66D9', '#FF33CC', '#FF00BF', '#CC0099', '#990073',
-         '#66004D', '#330026', '#FF44AA', '#FF88CC', '#FFAAFF', '#FF55BB', '#FF77DD']
-    }, {
-        "id": 'lacunalaranja2',
-        "description": '',
-        "isDiverging": True,
-        "label": 'Lacuna Laranja2',
-        "isDefault": False,
-        "colors":
-        ['#FFE6CC', '#FFCC99', '#FFB266', '#FF9933', '#FF8000']
-    }, {
-        "id": 'lacunaazul2',
-        "description": '',
-        "isDiverging": True,
-        "label": 'Lacuna Azul2',
-        "isDefault": False,
-        "colors":
-        ['#E6F0FF', '#CCE0FF', '#B3D1FF', '#99C2FF', '#80B3FF']
-    }, {
-        "id": 'lacunaverde2',
-        "description": '',
-        "isDiverging": True,
-        "label": 'Lacuna Verde2',
-        "isDefault": False,
-        "colors":
-        ['#E6FFE6', '#CCFFCC', '#B3FFB3', '#99FF99', '#80FF80']
-    }, {
-        "id": 'lacunavermelho2',
-        "description": '',
-        "isDiverging": True,
-        "label": 'Lacuna Vermelho2',
-        "isDefault": False,
-        "colors":
-        ['#FFE6E6', '#FFCCCC', '#FFB3B3', '#FF9999', '#FF8080']
-    }, {
-        "id": 'lacunaroxo2',
-        "description": '',
-        "isDiverging": True,
-        "label": 'Lacuna Roxo2',
-        "isDefault": False,
-        "colors":
-        ['#F0E6FF', '#E0CCFF', '#D1B3FF', '#C299FF', '#B380FF']
-    }, {
-        "id": 'lacunaamarelo2',
-        "description": '',
-        "isDiverging": True,
-        "label": 'Lacuna Amarelo2',
-        "isDefault": False,
-        "colors":
-        ['#FFFFE6', '#FFFFCC', '#FFFFB3', '#FFFF99', '#FFFF80']
-    }, {
-        "id": 'lacunaamarelo2',
-        "description": '',
-        "isDiverging": True,
-        "label": 'Lacuna Amarelo2',
-        "isDefault": False,
-        "colors":
-        ['#FFE6F0', '#FFCCE0', '#FFB3D1', '#FF99C2', '#FF80B3']
-    }, {
-        "id": 'lacunarosa2',
-        "description": '',
-        "isDiverging": True,
-        "label": 'Lacuna Rosa2',
-        "isDefault": False,
-        "colors":
-        ['#F2E6D9', '#E6CCB3', '#D9B38C', '#CC9966', '#BF8040']
-    }, {
-        "id": 'lacunarrom2',
-        "description": '',
-        "isDiverging": True,
-        "label": 'Lacuna Marrom2',
-        "isDefault": False,
-        "colors":
-        ['#F2F2F2', '#E6E6E6', '#CCCCCC', '#B3B3B3', '#999999']
-    }, {
-        "id": 'lacunacinza2',
-        "description": '',
-        "isDiverging": True,
-        "label": 'Lacuna Cinza2',
-        "isDefault": False,
-        "colors":
-        ['#E0FFFF', '#B3FFFF', '#80FFFF', '#4DFFFF', '#1AFFE6']
-    }, {
-        "id": 'lacunaciaano2',
-        "description": '',
-        "isDiverging": True,
-        "label": 'Lacuna Ciano2',
-        "isDefault": False,
-        "colors":
-        ['#F5F5DC', '#E6E6B3', '#CCCC99', '#B3B380', '#999966']
-    }, {
-        "id": 'lacunaverde_oliva2',
-        "description": '',
-        "isDiverging": True,
-        "label": 'Lacuna Verde Oliva2',
-        "isDefault": False,
-        "colors":
-        ['#E0F7FA', '#B2EBF2', '#80DEEA', '#4DD0E1', '#26C6DA']
-    }, {
-        "id": 'lacunaturquesa2',
-        "description": '',
-        "isDiverging": True,
-        "label": 'Lacuna Turquesa2',
-        "isDefault": False,
-        "colors":
-         ['#FDECEC', '#FACDCD', '#F59A9A', '#EF6666', '#EA3333']
-    }, {
-        "id": 'lacunavinho2',
-        "description": '',
-        "isDiverging": True,
-        "label": 'Lacuna Vinho2',
-        "isDefault": False,
-        "colors":
-        ['#FDECEC', '#FACDCD', '#F59A9A', '#EF6666', '#EA3333']
-    }, {
-        "id": 'lacunadourado2',
-        "description": '',
-        "isDiverging": True,
-        "label": 'Lacuna Dourado2',
-        "isDefault": False,
-        "colors":
-       ['#FFF9E6', '#FFF3CC', '#FFEDB3', '#FFE799', '#FFE280']
-    }, {
-        "id": 'lacunavioleta2',
-        "description": '',
-        "isDiverging": True,
-        "label": 'Lacuna Violeta2',
-        "isDefault": False,
-        "colors":
-        ['#F3E5F5', '#E1BEE7', '#CE93D8', '#BA68C8', '#AB47BC']
+        ['#F0FFE6', '#DFFFCC', '#CFFF99', '#BFFF66', '#AFFF33']
     }, {
         "id": 'verde_lima2',
         "description": '',
