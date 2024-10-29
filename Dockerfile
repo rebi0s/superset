@@ -85,6 +85,9 @@ RUN mkdir -p ${PYTHONPATH} superset/static requirements superset-frontend apache
     && chown -R superset:superset ./* \
     && rm -rf /var/lib/apt/lists/*
 
+COPY --chown=superset:superset ./docker/pythonpath_dev/superset_config.py ${PYTHONPATH}
+COPY --chown=superset:superset ./docker/pythonpath_dev/superset_config.py /app
+
 COPY --chown=superset:superset pyproject.toml setup.py MANIFEST.in README.md ./
 # setup.py uses the version information in package.json
 COPY --chown=superset:superset superset-frontend/package.json superset-frontend/

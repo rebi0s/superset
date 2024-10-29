@@ -167,7 +167,7 @@ DEFAULT_TIME_FILTER = NO_TIME_RANGE
 # [load balancer / proxy / envoy / kong / ...] timeout settings.
 # You should also make sure to configure your WSGI server
 # (gunicorn, nginx, apache, ...) timeout setting to be <= to this setting
-SUPERSET_WEBSERVER_TIMEOUT = int(timedelta(minutes=3).total_seconds())
+SUPERSET_WEBSERVER_TIMEOUT = int(timedelta(minutes=30).total_seconds())
 
 # this 2 settings are used by dashboard period force refresh feature
 # When user choose auto force refresh frequency
@@ -564,7 +564,7 @@ SSH_TUNNEL_LOCAL_BIND_ADDRESS = "127.0.0.1"
 #: Timeout (seconds) for tunnel connection (open_channel timeout)
 SSH_TUNNEL_TIMEOUT_SEC = 10.0
 #: Timeout (seconds) for transport socket (``socket.settimeout``)
-SSH_TUNNEL_PACKET_TIMEOUT_SEC = 1.0
+SSH_TUNNEL_PACKET_TIMEOUT_SEC = 10.0
 
 
 # Feature flags may also be set via 'SUPERSET_FEATURE_' prefixed environment vars.
@@ -1649,7 +1649,7 @@ SCREENSHOT_WAIT_FOR_ERROR_MODAL_INVISIBLE = 5
 SCREENSHOT_PLAYWRIGHT_WAIT_EVENT = "load"
 # Default timeout for Playwright browser context for all operations
 SCREENSHOT_PLAYWRIGHT_DEFAULT_TIMEOUT = int(
-    timedelta(seconds=30).total_seconds() * 1000
+    timedelta(seconds=300).total_seconds() * 1000
 )
 
 # ---------------------------------------------------
@@ -1948,10 +1948,10 @@ HTTP_HEADERS: dict[str, Any] = {}
 DEFAULT_DB_ID = None
 
 # Timeout duration for SQL Lab synchronous queries
-SQLLAB_TIMEOUT = int(timedelta(seconds=30).total_seconds())
+SQLLAB_TIMEOUT = int(timedelta(seconds=300).total_seconds())
 
 # Timeout duration for SQL Lab query validation
-SQLLAB_VALIDATION_TIMEOUT = int(timedelta(seconds=10).total_seconds())
+SQLLAB_VALIDATION_TIMEOUT = int(timedelta(seconds=300).total_seconds())
 
 # SQLLAB_DEFAULT_DBID
 SQLLAB_DEFAULT_DBID = None
@@ -1962,7 +1962,7 @@ SQLLAB_ASYNC_TIME_LIMIT_SEC = int(timedelta(hours=6).total_seconds())
 # Some databases support running EXPLAIN queries that allow users to estimate
 # query costs before they run. These EXPLAIN queries should have a small
 # timeout.
-SQLLAB_QUERY_COST_ESTIMATE_TIMEOUT = int(timedelta(seconds=10).total_seconds())
+SQLLAB_QUERY_COST_ESTIMATE_TIMEOUT = int(timedelta(seconds=100).total_seconds())
 
 # The cost returned by the databases is a relative value; in order to map the cost to
 # a tangible value you need to define a custom formatter that takes into consideration
@@ -2421,7 +2421,7 @@ PREFERRED_DATABASES: list[str] = [
 # incorrect this could take a couple minutes, until the SQLAlchemy driver pinging the
 # database times out. Instead of relying on the driver timeout we can specify a shorter
 # one here.
-TEST_DATABASE_CONNECTION_TIMEOUT = timedelta(seconds=30)
+TEST_DATABASE_CONNECTION_TIMEOUT = timedelta(seconds=60)
 
 # Details needed for databases that allows user to authenticate using personal
 # OAuth2 tokens. See https://github.com/apache/superset/issues/20300 for more
@@ -2450,7 +2450,7 @@ DATABASE_OAUTH2_JWT_ALGORITHM = "HS256"
 # by looking at the `default_redirect_uri` attribute in the OAuth2 state object.
 # DATABASE_OAUTH2_REDIRECT_URI = "http://localhost:8088/api/v1/database/oauth2/"
 # Timeout when fetching access and refresh tokens.
-DATABASE_OAUTH2_TIMEOUT = timedelta(seconds=30)
+DATABASE_OAUTH2_TIMEOUT = timedelta(seconds=60)
 
 # Enable/disable CSP warning
 CONTENT_SECURITY_POLICY_WARNING = True
